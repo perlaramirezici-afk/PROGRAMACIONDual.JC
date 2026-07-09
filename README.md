@@ -150,8 +150,6 @@ Gracias a ello, cualquier usuario puede conocer rápidamente:
 - Cómo colaborar.
 - Qué tecnologías utiliza.
 
-Un README bien elaborado mejora la presentación del proyecto y facilita el trabajo colaborativo.
-
 ---
 
  Conclusión
