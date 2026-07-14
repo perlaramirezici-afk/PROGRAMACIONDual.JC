@@ -1,13 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi primer proyecto dual</title>
 
     <link rel="stylesheet" href="styles.css"/>
 </head>
 
 <body>
+
+    <nav class="navbar">
+        <h2>Mariposas</h2>
+
+        <div class="menu">
+            <a href="#">Inicio</a>
+            <a href="#">Servicios</a>
+            <a href="#">Contacto</a>
+        </div>
+    </nav>
 
     <h1>SIGNIFICADO DE LAS MARIPOSAS</h1>
 
@@ -16,7 +28,7 @@
         el renacimiento y la libertad.
     </p>
 
-    <section>
+    <section class="hero">
 
         <a href="https://www.google.com">
             Visita mi página
@@ -25,10 +37,9 @@
         <br><br>
 
         <img src="https://iucn.org/sites/default/files/styles/article_image/public/2022-07/3_monarch-butterfly_-joe-schelling_compressed-for-web.jpg?itok=RS8WZSQA"
-             alt="Mariposas"
+             alt="Mariposas">
 
         <div>
-
 
             <ul>
                 <li>Lista 1</li>
@@ -46,38 +57,53 @@
 
     </section>
 
+    <section class="servicios">
+
+        <div class="tarjeta">
+            <h3>SEO</h3>
+            <p>Optimización para buscadores.</p>
+        </div>
+
+        <div class="tarjeta">
+            <h3>Tailwind CSS</h3>
+            <p>Framework para diseñar páginas web.</p>
+        </div>
+
+        <div class="tarjeta">
+            <h3>Responsive Design</h3>
+            <p>Diseño adaptable a cualquier dispositivo.</p>
+        </div>
+
+        <div class="tarjeta">
+            <h3>Flexbox</h3>
+            <p>Organiza elementos de forma flexible.</p>
+        </div>
+
+    </section>
+
     <section>
 
         <h2>¿Qué es el SEO?</h2>
 
         <p>
             El SEO (Search Engine Optimization) es el conjunto de estrategias
-            y técnicas para optimizar un sitio web. Su objetivo es mejorar la
-            visibilidad y el posicionamiento de una página en los resultados
-            orgánicos (no pagados) de buscadores como Google, Bing o Yahoo.
+            y técnicas para optimizar un sitio web.
         </p>
 
         <h3>¿Qué es Tailwind CSS?</h3>
 
         <p>
-            Tailwind CSS es un framework de CSS de utilidad primero
-            (Utility First). En lugar de proporcionar componentes ya
-            diseñados, ofrece clases de utilidad que se aplican
-            directamente al HTML para crear diseños personalizados
-            de forma rápida.
+            Tailwind CSS es un framework de CSS Utility First.
         </p>
 
         <h4>¿Qué es Responsive Design?</h4>
 
         <p>
-            El diseño web responsivo (Responsive Web Design o RWD)
-            es un enfoque que permite que las páginas web se adapten
-            correctamente a cualquier dispositivo o tamaño de pantalla.
-            Utiliza cuadrículas flexibles, imágenes adaptables y consultas
-            de medios (media queries) en CSS.
+            El diseño web responsivo adapta una página a cualquier dispositivo.
         </p>
 
     </section>
+
 
     <footer>
         Contacto de información.
