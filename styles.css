@@ -144,6 +144,7 @@ footer {
 
 @media (min-width: 700px) {
     h1 {
-        color: blue;
+        color: rgb(15, 209, 177);
     }
 }
+
