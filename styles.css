@@ -69,9 +69,8 @@ section {
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
 
-
-h2, h3, h4 {
-    color: #0066cc;
+h2,h3,h4,h5, h6 {
+    color: #1900fa;
 }
 
 p {
@@ -148,3 +147,17 @@ footer {
     }
 }
 
+
+#btnSaludar {
+    background-color: #007bff; 
+    color: white;              
+    padding: 15px 30px;        
+    font-size: 20px;           
+    border: none;              
+    border-radius: 10px;       
+    cursor: pointer; 
+     }          
+
+#btnSaludar:hover {
+    background-color: #0056b3; 
+}
