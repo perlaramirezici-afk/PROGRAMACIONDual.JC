@@ -22,7 +22,7 @@ document.getElementById("contacto").addEventListener("click", function () {
 let nombre2 = "Perla";      // String
 let edad2 = 17;             // Number
 let estudiante2 = true;     // Boolean
-let promedio = 9.8;         // float 
+let promedio = 9.9;         // float 
 let direccion = null;       // Null
 
 // Operaciones matemáticas
