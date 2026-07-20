@@ -64,3 +64,79 @@ console.log("Residuo: " + residuo);
 console.log("¿Es igual a 17?: " + esIgual);
 console.log("¿Es mayor de 18?: " + esMayor);
 console.log("¿Es menor o igual a 17?: " + esMenorIgual);
+
+
+
+//  Ejercicios de condiccion 
+
+// 1. MAYOR DE EDAD (if...else)
+
+let edad = 20;
+
+if (edad >= 18) {
+    console.log("Puede ingresar al evento.");
+} else {
+    console.log("No puede ingresar al evento.");
+}
+
+
+
+// 2. MENÚ DE CAFETERÍA (switch)
+
+let bebida = 3; 
+
+switch (bebida) {
+    case 1:
+        console.log("Café");
+        break;
+
+    case 2:
+        console.log("Chocolate");
+        break;
+
+    case 3:
+        console.log("Té");
+        break;
+
+    case 4:
+        console.log("Jugo");
+        break;
+
+    default:
+        console.log("Opción no válida.");
+}
+
+// 3. INICIO DE SESIÓN (&&)
+
+
+let usuario = "admin";
+let contraseña = "1234";
+
+if (usuario === "admin" && contraseña === "1234") {
+    console.log("Bienvenidos al sistema .");
+} else {
+    console.log("Usuario o contraseña incorrectos.");
+}
+
+
+// 4. DESCUENTO EN UNA COMPRA
+
+
+let compra = 800;
+
+if (compra >= 1000) {
+    console.log("Tienes un descuento del 20%.");
+} else if (compra >= 500) {
+    console.log("Tienes un descuento del 10%.");
+} else {
+    console.log("No tienes descuento.");
+}
+
+// 5. ESTADO DEL CLIMA (Operador ternario)
+
+
+let temperatura = 30;
+
+let clima = (temperatura >= 25) ? "Hace calor." : "Hace frío.";
+
+console.log(clima);
